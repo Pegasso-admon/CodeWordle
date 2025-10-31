@@ -1,4 +1,4 @@
-package com.example.CodeWordle;
+package com.crudzaso.codewordle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

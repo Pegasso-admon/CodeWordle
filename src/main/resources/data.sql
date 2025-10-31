@@ -1,31 +1,50 @@
--- Insert topics
-INSERT INTO themes (name, description) VALUES
-('JAVA', 'Términos relacionados con Java'),
-('SPRING', 'Términos del framework Spring'),
-('DEVOPS', 'Términos de DevOps y CI/CD'),
-('DATABASE', 'Términos de bases de datos');
+INSERT INTO themes (name, description) VALUES 
+('Java', 'Programming language and related concepts'),
+('Spring', 'Spring Framework and Spring Boot'),
+('DevOps', 'Development operations and tools'),
+('Database', 'Database concepts and technologies');
 
--- Insert words for JAVA (theme_id = 1)
-INSERT INTO words (word, theme_id) VALUES
-('CLASS', 1), ('OBJECT', 1), ('METHOD', 1), 
-('INTERFACE', 1), ('ABSTRACT', 1), ('STATIC', 1),
-('FINAL', 1), ('EXTENDS', 1), ('IMPLEMENTS', 1),
-('PACKAGE', 1);
+INSERT INTO words (word, theme_id) VALUES 
+('class', 1),
+('object', 1),
+('method', 1),
+('interface', 1),
+('inheritance', 1),
+('polymorphism', 1),
+('encapsulation', 1),
+('abstraction', 1),
+('annotation', 1),
+('lambda', 1),
 
--- Insert words for SPRING (theme_id = 2)
-INSERT INTO words (word, theme_id) VALUES
-('BEAN', 2), ('AUTOWIRED', 2), ('COMPONENT', 2),
-('SERVICE', 2), ('REPOSITORY', 2), ('CONTROLLER', 2),
-('RESTFUL', 2), ('INJECTION', 2), ('CONTEXT', 2);
+('bean', 2),
+('dependency', 2),
+('injection', 2),
+('autowired', 2),
+('controller', 2),
+('repository', 2),
+('service', 2),
+('configuration', 2),
+('annotation', 2),
+('boot', 2),
 
--- Insert words for DEVOPS (theme_id = 3)
-INSERT INTO words (word, theme_id) VALUES
-('DOCKER', 3), ('JENKINS', 3), ('PIPELINE', 3),
-('DEPLOY', 3), ('BUILD', 3), ('TESTING', 3),
-('RELEASE', 3), ('CONTAINER', 3);
+('docker', 3),
+('kubernetes', 3),
+('jenkins', 3),
+('gitlab', 3),
+('terraform', 3),
+('ansible', 3),
+('pipeline', 3),
+('deployment', 3),
+('container', 3),
+('orchestration', 3),
 
--- Insert words for DATABASE (theme_id = 4)
-INSERT INTO words (word, theme_id) VALUES
-('SELECT', 4), ('INSERT', 4), ('UPDATE', 4),
-('DELETE', 4), ('TABLE', 4), ('INDEX', 4),
-('QUERY', 4), ('JOIN', 4), ('TRANSACTION', 4);
+('table', 4),
+('query', 4),
+('index', 4),
+('transaction', 4),
+('normalization', 4),
+('relationship', 4),
+('primarykey', 4),
+('foreignkey', 4),
+('constraint', 4),
+('view', 4);
